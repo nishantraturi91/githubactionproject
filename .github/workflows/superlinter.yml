@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Run Super-linter
-        uses: super-linter/super-linter@v7.3.0 # x-release-please-version
+        uses: super-linter/super-linter@v4
         env:
           # To report GitHub Actions status checks
           DEFAULT_BRANCH: main
